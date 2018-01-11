@@ -1,0 +1,30 @@
+{
+  "name": "vulcandigital/silverstripe-securelinkparser",
+  "description": "Allows you to notify your viewers that they are being redirected to an external link",
+  "type": "silverstripe-vendormodule",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Reece Alexander",
+      "email": "reece@vulcandigital.co.nz",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "^4",
+    "silverstripe/cms": "^4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vulcan\\SecureLinkParser\\": "src/"
+    }
+  },
+  "expose": [
+    "javascript"
+  ],
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
